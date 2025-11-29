@@ -1,0 +1,89 @@
+body{
+   margin: 0;
+   font-family: Arial, sans-serif;
+   color:#4a5d57;
+   text-align: center;
+}
+
+header{
+   width:90%;
+   margin: 20px auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+.logos{
+   font-size: 40px;
+   line-height: 40px;
+   color: #4a5d57;
+   text-align:left;
+}
+
+.top-right {
+text-align: right;
+}
+
+.top-right nav a{
+   margin-left: 10px;
+   text-decoration: none;
+   color: #4a5d57;
+   font-size: 14px;
+}
+.hero{
+   width: 70%;
+   margin: 50px auto;
+}
+
+.hero h2 {
+   font-size: 28px;
+}
+.hero p{
+   font-size: 17px;
+   width: 70%;
+   margin: auto;
+   color: #50665e;
+}
+
+.btn {
+   margin-top: 20px;
+   padding: 12px 25px;
+   border:1px solid #4a5d57;
+   background: white;
+   cursor: pointer;
+}
+.info-box {
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+   width: 80%;
+   margin: 50px auto;
+}
+
+.info-box div{
+   width: 30%;
+}
+.info-box h5 {
+   color:#6a7c75;
+   margin-bottom: 5px;
+   font-size: 12px;
+}
+
+.info-box h3 {
+   font: size 20px;
+   margin-top: 0;
+}
+
+footer {
+   width: 90%;
+   margin: 40px auto;
+   padding: 20px 0;
+   border-top: 1px solid #ddd;
+   text-align:center;
+}
+
+.footer-nav a{
+   margin: 0 10px;
+   text-decoration: none;
+   font-size: 14px;
+   color:#4a5d57;
+}
